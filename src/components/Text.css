@@ -1,0 +1,16 @@
+.draggable-text {
+  cursor: move;
+  font-size: 2rem;
+  color: #222;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #fff, 0 0 2px #000;
+  user-select: none;
+}
+
+.draggable-input {
+  font-size: 2rem;
+  padding: 4px 8px;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  outline: none;
+}

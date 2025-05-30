@@ -1,0 +1,54 @@
+.meme {
+  width: 500px;
+  min-height: 350px;
+  border: 2px dashed #007bff;
+  border-radius: 12px;
+  margin: 30px auto 20px auto;
+  background: #f8f9fa;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.meme img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.edit-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .meme {
+    width: 98vw;
+    min-height: 220px;
+    padding: 8px;
+  }
+
+  .meme img {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .edit-btns {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+    margin-top: 12px;
+  }
+
+  .edit-btns button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

@@ -8,7 +8,7 @@ import Edit from './Pages/Edit'
 const App = () => {
   return (
     <div className='App'>
-      <h1>Umang Meme Generator</h1>
+      
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/edit' element={<Edit/>} />
