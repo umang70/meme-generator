@@ -27,7 +27,7 @@ const Edit = () => {
         <div className="edit-btns">
             <Button onClick={addText}>Add Text</Button>
             <Button variant='success' onClick={() => exportComponentAsJPEG(memeRef)}>Save</Button>
-            <Button variant='info' onClick={handleInstagramShare}>Share on Instagram</Button>
+            <Button variant='info' onClick={handleInstagramShare}>Share on Insta</Button>
         </div>
     </div>
   )
